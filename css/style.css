@@ -46,7 +46,7 @@ body {
 #title {
   position: absolute;
   left: 0;
-  top: 203px;
+  top: 253px;
   background-color: white;
   width: 100vw;
   z-index: 100;
@@ -165,16 +165,23 @@ a.source:visited {
 /* Storymap logo image above the title */
 #logo {
   height: 100px;
-  line-height: 30px;
+  line-height: 0;
   text-align: center;
-  padding: 10px;
+  padding: 10px 10px 0 10px;
   max-width: 100%;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #logo img {
   max-height: 100%;
   max-width: 100%;
   vertical-align: middle;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
 }
 
 #header {
@@ -330,8 +337,16 @@ h2 {
     box-shadow: 0 2px 6px rgba(0,0,0,0.15);
   }
 
-  #map{
-    height: 350px;
+  #map {
+    height: 400px;
+  }
+
+  #title {
+    top: 403px;
+  }
+  
+  #narration {
+    top: 403px;
   }
 
   #box {
