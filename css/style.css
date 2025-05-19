@@ -34,6 +34,7 @@ body {
 #top {
   height: 40px;
   margin: 0;
+  padding: 0;
 }
 
 #space-at-the-bottom {
@@ -338,7 +339,7 @@ h2 {
   }
 
   #map {
-    height: 400px;
+    height: 401px;
   }
 
   #title {
